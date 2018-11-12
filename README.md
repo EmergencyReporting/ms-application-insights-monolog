@@ -6,11 +6,9 @@ Monolog Handler connection to [Microsoft Application Insights](http://azure.micr
 Installation
 ------------
 Via Composer:
-Add the following to your composer.json:
-```js
-  "require": {
-        "marchie/ms-application-insights-monolog": "dev-master"
-    }
+Run the following Composer command:
+```console
+composer require ercorp/ms-application-insights-monolog
 ```
 
 Usage

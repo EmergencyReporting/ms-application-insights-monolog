@@ -1,5 +1,5 @@
 {
-  "name": "marchie/ms-application-insights-monolog",
+  "name": "ercorp/ms-application-insights-monolog",
   "description": "Microsoft Application Insights integration for monolog. An abstract handler that sends messages to Microsoft Application Insights",
   "keywords": ["microsoft", "application insights", "monolog", "logging", "error"],
   "minimum-stability": "stable",
@@ -8,12 +8,17 @@
     {
       "name": "Chris March",
       "email": "marchie@marchie.net"
+    },
+    {
+      "name": "Gabe Martin",
+      "email": "gabe.martin@emergencyreporting.com"
     }
   ],
 
   "require" : {
+    "php": "^7.1",
     "monolog/monolog": "^1.7.0",
-    "microsoft/application-insights": "^0.3.0"
+    "microsoft/application-insights": "^0.4.4"
   },
 
   "require-dev": {
@@ -22,7 +27,7 @@
 
   "autoload": {
     "psr-4": {
-      "Marchie\\MSApplicationInsightsMonolog\\": "src/"
+      "ER\\MSApplicationInsightsMonolog\\": "src/"
     }
   }
 }
